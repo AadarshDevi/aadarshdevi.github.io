@@ -1,0 +1,83 @@
+html {
+  /* background-color: rgb(0, 0, 255); */
+  background-color: rgb(0, 0, 43);
+}
+
+p {
+  font-size: 25px;
+  color: deepskyblue;
+}
+
+li {
+  font-size: 25px;
+  color: rgb(145, 228, 255);
+}
+
+h2 {
+  color: rgb(198, 241, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 191, 255);
+  font-size: 30px;
+}
+
+#imgs {
+  margin: 25px;
+  width: 45vw;
+}
+.about-me {
+  font-size: 20px;
+}
+
+#about-me-para {
+  color: deepskyblue;
+  font-weight: 800;
+  padding: 10px;
+}
+
+#my-img {
+  height: 200px;
+  padding: 15px;
+  float: left;
+}
+
+#about-me-header-2 {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 15px 0px 0px 15px;
+  margin: 0px;
+}
+
+#about-me-container {
+  width: 900px;
+  height: 275px;
+
+  margin: 15px;
+
+  background-color: rgb(5, 0, 61);
+  text-wrap: balance;
+}
+
+.information-module-container-box {
+  height: 1200px;
+  width: 1500px;
+  background-color: black;
+  margin: 25px;
+  display: flex;
+  flex: content;
+}
+
+#information-module-container {
+  height: 300px;
+  width: 450px;
+  background-color: rgb(11, 0, 82);
+  margin: 25px;
+  font-size: 30px;
+  align-content: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+#information-module-img {
+  width: 400px;
+  padding: 25px;
+}
