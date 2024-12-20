@@ -1,22 +1,17 @@
-html {
-  /* background-color: rgb(0, 0, 255); */
-  background-color: rgb(0, 0, 43);
-}
-
 p {
   font-size: 25px;
-  color: deepskyblue;
+  color: var(--text-color-1);
 }
 
 li {
   font-size: 25px;
-  color: rgb(145, 228, 255);
+  color: var(--text-color-4);
 }
 
 h2 {
-  color: rgb(198, 241, 255);
-  text-decoration: underline;
-  text-decoration-color: rgb(0, 191, 255);
+  color: var(--text-color-3);
+  /* text-decoration: underline; */
+  /* text-decoration-color: rgb(0, 191, 255); */
   font-size: 30px;
 }
 
@@ -29,7 +24,7 @@ h2 {
 }
 
 #about-me-para {
-  color: deepskyblue;
+  color: var(--text-color-1);
   font-weight: 800;
   padding: 10px;
 }
@@ -53,14 +48,14 @@ h2 {
 
   margin: 15px;
 
-  background-color: rgb(5, 0, 61);
+  background-color: var(--bachground-color-1);
   text-wrap: balance;
 }
 
 .information-module-container-box {
   height: 1200px;
   width: 1500px;
-  background-color: black;
+  background-color: var(--bachground-color-1);
   margin: 25px;
   display: flex;
   flex: content;
@@ -69,7 +64,7 @@ h2 {
 #information-module-container {
   height: 300px;
   width: 450px;
-  background-color: rgb(11, 0, 82);
+  background-color: var(--text-color-4);
   margin: 25px;
   font-size: 30px;
   align-content: center;

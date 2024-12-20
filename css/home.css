@@ -1,0 +1,65 @@
+/* Home Page */
+* {
+  --bachground-color-1: #111111ff; /* background */
+  --bachground-color-2: rgb(35, 35, 35); /* background */
+  --text-color-1: #86f1ffff; /* para */
+  --text-color-2: #ff8686;
+  --text-color-3: #ffa886; /* h2 */
+  --text-color-4: #d786ff; /* li */
+
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+html {
+  background-color: var(--bachground-color-1);
+}
+
+.container {
+  width: 98vw;
+  height: 7.5vh;
+  min-height: 50px;
+
+  background-color: var(--bachground-color-2);
+  align-self: center;
+  justify-self: center;
+  margin: 2.6vh 1vw;
+
+  display: flex;
+  flex: content;
+
+  color: var(--text-color-1);
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.home-module {
+  width: 10vw;
+  height: 5vh;
+  padding: 0.5vh 1vw;
+
+  text-align: center;
+  align-content: center;
+
+  color: var(--text-color-1);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.home-module:hover {
+  background-color: var(--bachground-color-1);
+}
+
+.header-1 {
+  color: #ffa886;
+  margin: 2.6vh 1vw;
+}
