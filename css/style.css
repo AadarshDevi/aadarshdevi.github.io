@@ -1,78 +1,62 @@
-p {
-  font-size: 25px;
-  color: var(--text-color-1);
+/* about me page */
+.about-me-container {
+  width: 96vw;
+  height: 30vh;
+
+  margin: 2.6vh 1vw;
+
+  background-color: var(--background-color-2);
+  text-wrap: balance;
+
+  text-align: center;
 }
 
-li {
-  font-size: 25px;
-  color: var(--text-color-4);
-}
-
-h2 {
-  color: var(--text-color-3);
-  /* text-decoration: underline; */
-  /* text-decoration-color: rgb(0, 191, 255); */
-  font-size: 30px;
-}
-
-#imgs {
-  margin: 25px;
-  width: 45vw;
-}
-.about-me {
-  font-size: 20px;
+.my-img {
+  height: 26vh;
+  padding: 2vh;
+  float: left;
 }
 
 #about-me-para {
   color: var(--text-color-1);
   font-weight: 800;
-  padding: 10px;
+  padding: 2vh;
+  font-size: 20px;
 }
 
-#my-img {
-  height: 200px;
-  padding: 15px;
-  float: left;
-}
+/* my hobbies */
 
-#about-me-header-2 {
-  font-weight: 700;
-  font-size: 30px;
-  padding: 15px 0px 0px 15px;
-  margin: 0px;
-}
-
-#about-me-container {
-  width: 900px;
-  height: 275px;
-
-  margin: 15px;
-
-  background-color: var(--bachground-color-1);
-  text-wrap: balance;
-}
-
-.information-module-container-box {
-  height: 1200px;
-  width: 1500px;
-  background-color: var(--bachground-color-1);
-  margin: 25px;
+.hobby-container {
   display: flex;
   flex: content;
-}
-
-#information-module-container {
-  height: 300px;
-  width: 450px;
-  background-color: var(--text-color-4);
-  margin: 25px;
-  font-size: 30px;
-  align-content: center;
+  flex-direction: row;
   justify-content: center;
-  color: whitesmoke;
+  width: 96vw;
+  margin: 2.6vh 1vw;
+  height: 38vh;
 }
 
-#information-module-img {
-  width: 400px;
-  padding: 25px;
+.hobby {
+  width: 25vh;
+  height: 35vh;
+  background-color: var(--background-color-2);
+  margin: 2.6vh 1vw;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  color: var(--text-color-1);
+}
+
+.hobby:hover {
+  background-color: var(--background-color-3);
+}
+
+.hobby-img {
+  width: 20vh;
+  padding: 1vw;
+}
+
+.hobby-img:hover {
+  width: 18vh;
+  padding: 1vw;
 }

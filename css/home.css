@@ -1,7 +1,8 @@
 /* Home Page */
 * {
-  --bachground-color-1: #111111ff; /* background */
-  --bachground-color-2: rgb(35, 35, 35); /* background */
+  --background-color-1: #111111ff; /* background */
+  --background-color-2: rgb(35, 35, 35); /* background */
+  --background-color-3: rgb(67, 67, 67); /* background */
   --text-color-1: #86f1ffff; /* para */
   --text-color-2: #ff8686;
   --text-color-3: #ffa886; /* h2 */
@@ -20,15 +21,15 @@ a {
 }
 
 html {
-  background-color: var(--bachground-color-1);
+  background-color: var(--background-color-1);
 }
 
 .container {
   width: 98vw;
-  height: 7.5vh;
+  height: 10vh;
   min-height: 50px;
 
-  background-color: var(--bachground-color-2);
+  background-color: var(--background-color-2);
   align-self: center;
   justify-self: center;
   margin: 2.6vh 1vw;
@@ -44,7 +45,7 @@ html {
 
 .home-module {
   width: 10vw;
-  height: 5vh;
+  height: 8vh;
   padding: 0.5vh 1vw;
 
   text-align: center;
@@ -56,7 +57,7 @@ html {
 }
 
 .home-module:hover {
-  background-color: var(--bachground-color-1);
+  background-color: var(--background-color-1);
 }
 
 .header-1 {
