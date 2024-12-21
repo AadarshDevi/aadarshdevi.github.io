@@ -1,6 +1,6 @@
 .login-aligner {
   width: 98vw;
-  height: 94.8vh;
+  height: 82.2vh;
   margin: 2.6vh 1vw;
   background-color: var(--background-color-1);
   /* border-radius: 15px; */
@@ -15,6 +15,7 @@
   border-radius: 15px;
   color: var(--text-color-1);
 
+  border: 1px solid var(--background-color-3);
   align-content: center;
   text-align: center;
 

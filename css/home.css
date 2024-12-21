@@ -28,7 +28,7 @@ html {
 
 .container {
   width: 98vw;
-  height: 10vh;
+  height: 8vh;
   min-height: 50px;
 
   background-color: var(--background-color-2);
@@ -47,7 +47,7 @@ html {
 
 .home-module {
   width: 10vw;
-  height: 8vh;
+  height: 6vh;
   padding: 0.5vh 1vw;
 
   text-align: center;
