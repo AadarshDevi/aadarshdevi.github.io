@@ -7,30 +7,39 @@
 
     <link rel="stylesheet" href="../../css/home.css" />
     <link rel="stylesheet" href="../../css/login.css" />
+
+    <!-- defer: runs js after html and css -->
+    <script type="text/javascript" src="../../js/login.js" defer></script>
   </head>
   <body>
     <div class="login-aligner">
+      <h1 class="header-1">Login</h1>
       <div class="login-box">
-        <form action="">
+        <form action="" id="login-form">
           <p>Username:</p>
           <input
             type="text"
             placeholder="Aadarsh"
             name="login-username"
-            required
             class="login-text-box"
+            id="login-username"
+            required
           />
           <p>Password:</p>
           <input
             type="password"
             placeholder="123456"
-            name="login-username"
-            required
+            name="login-password"
             class="login-text-box"
+            id="login-password"
+            required
           />
+          <button type="submit" class="login-submit-button" id="login-button">
+            Login
+          </button>
         </form>
-        <button class="login-submit-button">Login In</button>
       </div>
     </div>
   </body>
 </html>
+<!-- onclick="submit()" -->
