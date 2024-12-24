@@ -1,0 +1,14 @@
+.para-center {
+  width: 98vw;
+  margin: 2.6vh 1vw;
+  /* background-color: var(--background-color-3); */
+}
+
+.para-para {
+}
+
+.header-2 {
+  margin: 2.6vh 1vw;
+  color: var(--text-color-3);
+  text-decoration: underline;
+}

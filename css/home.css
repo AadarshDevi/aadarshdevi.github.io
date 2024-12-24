@@ -56,6 +56,12 @@ html {
   color: var(--text-color-1);
   font-weight: 500;
   font-size: 20px;
+
+  align-self: center;
+
+  a {
+    color: var(--text-color-1);
+  }
 }
 
 .home-module:hover {
