@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "Presonal Website",
       link: "/html/group_1/personal_website/personal_website.html",
     },
-    { text: "Login", link: "/html/group_1/login.html" },
+    { text: "JS Login", link: "/html/group_1/login.html" },
     { text: "Placeholder", link: "" },
     { text: "Placeholder", link: "" },
     { text: "Placeholder", link: "" },

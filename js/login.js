@@ -25,6 +25,9 @@ button_html.addEventListener("click", function (event) {
   }
 
   if (isValid) {
-    window.open("../../index.html", "_self");
+    window.open(
+      "../../html/group_1/personal_website/personal_website.html",
+      "_self"
+    );
   }
 });
